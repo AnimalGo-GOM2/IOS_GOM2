@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8495957024CFBEDD00818959 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8495956E24CFBEDD00818959 /* Main.storyboard */; };
+		8495957224CFBEE300818959 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8495957124CFBEE300818959 /* Assets.xcassets */; };
+		8495957524CFBEE300818959 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8495957324CFBEE300818959 /* LaunchScreen.storyboard */; };
+		8495957D24CFBF6C00818959 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8495957C24CFBF6C00818959 /* AppDelegate.swift */; };
+		8495957F24CFBFB600818959 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8495957E24CFBFB600818959 /* MainViewController.swift */; };
+		8495958624CFC0A500818959 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8495958124CFC0A500818959 /* Constants.swift */; };
+		8495958724CFC0A500818959 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8495958224CFC0A500818959 /* Functions.swift */; };
+		8495958824CFC0A500818959 /* SplashView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8495958324CFC0A500818959 /* SplashView.xib */; };
+		8495958924CFC0A500818959 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8495958424CFC0A500818959 /* Extensions.swift */; };
+		8495958A24CFC0A500818959 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8495958524CFC0A500818959 /* SplashView.swift */; };
+		8495958C24CFC0D700818959 /* BaseWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8495958B24CFC0D700818959 /* BaseWebView.swift */; };
+		84F81F6B24D2815900766AF7 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F81F6A24D2815900766AF7 /* NotificationService.swift */; };
+		84F81F6F24D2815900766AF7 /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 84F81F6824D2815900766AF7 /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BC33D6F719CF4EF10A5F5819 /* Pods_GOM2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A35797FDCA8B35BDCFCB74D9 /* Pods_GOM2.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84F81F6D24D2815900766AF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8495955D24CFBEDD00818959 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84F81F6724D2815900766AF7;
+			remoteInfo = OneSignalNotificationServiceExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		84F81F7024D2815900766AF7 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				84F81F6F24D2815900766AF7 /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0682523AD5B4169CB1A815DD /* Pods-GOM2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GOM2.release.xcconfig"; path = "Target Support Files/Pods-GOM2/Pods-GOM2.release.xcconfig"; sourceTree = "<group>"; };
+		8495956524CFBEDD00818959 /* GOM2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GOM2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8495956F24CFBEDD00818959 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8495957124CFBEE300818959 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8495957424CFBEE300818959 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8495957624CFBEE300818959 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8495957C24CFBF6C00818959 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8495957E24CFBFB600818959 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		8495958124CFC0A500818959 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8495958224CFC0A500818959 /* Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		8495958324CFC0A500818959 /* SplashView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SplashView.xib; sourceTree = "<group>"; };
+		8495958424CFC0A500818959 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		8495958524CFC0A500818959 /* SplashView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		8495958B24CFC0D700818959 /* BaseWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseWebView.swift; sourceTree = "<group>"; };
+		84F81F6824D2815900766AF7 /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		84F81F6A24D2815900766AF7 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		84F81F6C24D2815900766AF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84F81F7424D281DE00766AF7 /* OneSignalNotificationServiceExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OneSignalNotificationServiceExtension.entitlements; sourceTree = "<group>"; };
+		84F81F7524D281EA00766AF7 /* GOM2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GOM2.entitlements; sourceTree = "<group>"; };
+		A35797FDCA8B35BDCFCB74D9 /* Pods_GOM2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GOM2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A54102D145E845419FC06FFF /* Pods-GOM2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GOM2.debug.xcconfig"; path = "Target Support Files/Pods-GOM2/Pods-GOM2.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8495956224CFBEDD00818959 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC33D6F719CF4EF10A5F5819 /* Pods_GOM2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F81F6524D2815900766AF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54C9DD194E35422CC01812BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A35797FDCA8B35BDCFCB74D9 /* Pods_GOM2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8495955C24CFBEDD00818959 = {
+			isa = PBXGroup;
+			children = (
+				8495956724CFBEDD00818959 /* GOM2 */,
+				84F81F6924D2815900766AF7 /* OneSignalNotificationServiceExtension */,
+				8495956624CFBEDD00818959 /* Products */,
+				F7DB2B5DD068A1FB6D135446 /* Pods */,
+				54C9DD194E35422CC01812BF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8495956624CFBEDD00818959 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8495956524CFBEDD00818959 /* GOM2.app */,
+				84F81F6824D2815900766AF7 /* OneSignalNotificationServiceExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8495956724CFBEDD00818959 /* GOM2 */ = {
+			isa = PBXGroup;
+			children = (
+				84F81F7524D281EA00766AF7 /* GOM2.entitlements */,
+				8495958024CFC0A500818959 /* Common */,
+				8495957C24CFBF6C00818959 /* AppDelegate.swift */,
+				8495957E24CFBFB600818959 /* MainViewController.swift */,
+				8495958B24CFC0D700818959 /* BaseWebView.swift */,
+				8495956E24CFBEDD00818959 /* Main.storyboard */,
+				8495957124CFBEE300818959 /* Assets.xcassets */,
+				8495957324CFBEE300818959 /* LaunchScreen.storyboard */,
+				8495957624CFBEE300818959 /* Info.plist */,
+			);
+			path = GOM2;
+			sourceTree = "<group>";
+		};
+		8495958024CFC0A500818959 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				8495958124CFC0A500818959 /* Constants.swift */,
+				8495958224CFC0A500818959 /* Functions.swift */,
+				8495958324CFC0A500818959 /* SplashView.xib */,
+				8495958424CFC0A500818959 /* Extensions.swift */,
+				8495958524CFC0A500818959 /* SplashView.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		84F81F6924D2815900766AF7 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				84F81F7424D281DE00766AF7 /* OneSignalNotificationServiceExtension.entitlements */,
+				84F81F6A24D2815900766AF7 /* NotificationService.swift */,
+				84F81F6C24D2815900766AF7 /* Info.plist */,
+			);
+			path = OneSignalNotificationServiceExtension;
+			sourceTree = "<group>";
+		};
+		F7DB2B5DD068A1FB6D135446 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A54102D145E845419FC06FFF /* Pods-GOM2.debug.xcconfig */,
+				0682523AD5B4169CB1A815DD /* Pods-GOM2.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8495956424CFBEDD00818959 /* GOM2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8495957924CFBEE300818959 /* Build configuration list for PBXNativeTarget "GOM2" */;
+			buildPhases = (
+				094B36BBCF183DE652D7BE3E /* [CP] Check Pods Manifest.lock */,
+				8495956124CFBEDD00818959 /* Sources */,
+				8495956224CFBEDD00818959 /* Frameworks */,
+				8495956324CFBEDD00818959 /* Resources */,
+				84F81F7024D2815900766AF7 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84F81F6E24D2815900766AF7 /* PBXTargetDependency */,
+			);
+			name = GOM2;
+			productName = GOM2;
+			productReference = 8495956524CFBEDD00818959 /* GOM2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84F81F6724D2815900766AF7 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84F81F7324D2815900766AF7 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
+			buildPhases = (
+				84F81F6424D2815900766AF7 /* Sources */,
+				84F81F6524D2815900766AF7 /* Frameworks */,
+				84F81F6624D2815900766AF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneSignalNotificationServiceExtension;
+			productName = OneSignalNotificationServiceExtension;
+			productReference = 84F81F6824D2815900766AF7 /* OneSignalNotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8495955D24CFBEDD00818959 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = AnimalGo;
+				TargetAttributes = {
+					8495956424CFBEDD00818959 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					84F81F6724D2815900766AF7 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 8495956024CFBEDD00818959 /* Build configuration list for PBXProject "GOM2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8495955C24CFBEDD00818959;
+			productRefGroup = 8495956624CFBEDD00818959 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8495956424CFBEDD00818959 /* GOM2 */,
+				84F81F6724D2815900766AF7 /* OneSignalNotificationServiceExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8495956324CFBEDD00818959 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8495957524CFBEE300818959 /* LaunchScreen.storyboard in Resources */,
+				8495958824CFC0A500818959 /* SplashView.xib in Resources */,
+				8495957224CFBEE300818959 /* Assets.xcassets in Resources */,
+				8495957024CFBEDD00818959 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F81F6624D2815900766AF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		094B36BBCF183DE652D7BE3E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GOM2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8495956124CFBEDD00818959 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8495958924CFC0A500818959 /* Extensions.swift in Sources */,
+				8495957D24CFBF6C00818959 /* AppDelegate.swift in Sources */,
+				8495957F24CFBFB600818959 /* MainViewController.swift in Sources */,
+				8495958624CFC0A500818959 /* Constants.swift in Sources */,
+				8495958724CFC0A500818959 /* Functions.swift in Sources */,
+				8495958A24CFC0A500818959 /* SplashView.swift in Sources */,
+				8495958C24CFC0D700818959 /* BaseWebView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F81F6424D2815900766AF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F81F6B24D2815900766AF7 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84F81F6E24D2815900766AF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84F81F6724D2815900766AF7 /* OneSignalNotificationServiceExtension */;
+			targetProxy = 84F81F6D24D2815900766AF7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8495956E24CFBEDD00818959 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8495956F24CFBEDD00818959 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8495957324CFBEE300818959 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8495957424CFBEE300818959 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8495957724CFBEE300818959 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8495957824CFBEE300818959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8495957A24CFBEE300818959 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A54102D145E845419FC06FFF /* Pods-GOM2.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GOM2/GOM2.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = CGB9ZY6TSF;
+				INFOPLIST_FILE = GOM2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.gom2.mobileapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8495957B24CFBEE300818959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0682523AD5B4169CB1A815DD /* Pods-GOM2.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GOM2/GOM2.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = CGB9ZY6TSF;
+				INFOPLIST_FILE = GOM2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.gom2.mobileapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84F81F7124D2815900766AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = OneSignalNotificationServiceExtension/OneSignalNotificationServiceExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = CGB9ZY6TSF;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.gom2.mobileapp.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84F81F7224D2815900766AF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = OneSignalNotificationServiceExtension/OneSignalNotificationServiceExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = CGB9ZY6TSF;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.gom2.mobileapp.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8495956024CFBEDD00818959 /* Build configuration list for PBXProject "GOM2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8495957724CFBEE300818959 /* Debug */,
+				8495957824CFBEE300818959 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8495957924CFBEE300818959 /* Build configuration list for PBXNativeTarget "GOM2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8495957A24CFBEE300818959 /* Debug */,
+				8495957B24CFBEE300818959 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84F81F7324D2815900766AF7 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84F81F7124D2815900766AF7 /* Debug */,
+				84F81F7224D2815900766AF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8495955D24CFBEDD00818959 /* Project object */;
+}
